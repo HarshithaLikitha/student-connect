@@ -6,8 +6,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
+import { Textarea } from "@/components/ui/ui-components"import { Label } from "@/components/ui/label"
 import { createCommunity } from "@/app/actions/communities"
 
 export default function CreateCommunityPage() {
